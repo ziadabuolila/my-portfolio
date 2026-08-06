@@ -1,0 +1,66 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  scroll-behavior: smooth;
+  --scroll-thumb: #0ea5e9;
+  --scroll-thumb-hover: #0284c7;
+}
+
+html,
+body {
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+body.no-shell header,
+body.no-shell footer {
+  display: none;
+}
+
+::selection {
+  background: #bae6fd;
+  color: #0f172a;
+}
+
+.dark ::selection {
+  background: #0369a1;
+  color: #fff;
+}
+
+@layer base {
+  button {
+    @apply cursor-pointer;
+  }
+}
+
+.dark {
+  --scroll-thumb: #38bdf8;
+  --scroll-thumb-hover: #7dd3fc;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scroll-thumb);
+  border-radius: 9999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+  transition: 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scroll-thumb-hover);
+  background-clip: content-box;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scroll-thumb) transparent;
+}
