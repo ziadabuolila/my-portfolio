@@ -1,6 +1,7 @@
 ﻿"use client";
 
 import Image from "next/image";
+import MyImage from "../../../public/ziad.jpg";
 import Reveal from "../../components/Reveal";
 
 const AboutPage = () => {
@@ -16,7 +17,7 @@ const AboutPage = () => {
                         <div className="flex justify-center sm:justify-start">
                             <div className="overflow-hidden rounded-[2rem] border border-slate-200 bg-white/90 shadow-2xl shadow-slate-900/5 transition-colors duration-300 dark:border-slate-800 dark:bg-slate-900/90 dark:shadow-slate-950/20">
                                 <Image
-                                    src="/ziad.jpg"
+                                    src={MyImage}
                                     alt="Ziad Abuolila"
                                     width={560}
                                     height={560}
