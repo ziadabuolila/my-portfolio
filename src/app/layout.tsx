@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ziad Abuolila",
-  description: "Personal portfolio for Ziad Abuolila — front-end developer using Next.js and Tailwind CSS.",
+  title: { default: "Ziad Abuolila — Front-end Developer", template: "%s | Ziad Abuolila" },
+  description: "Selected work and services by Ziad Abuolila, front-end developer crafting polished, responsive digital experiences.",
 };
 
 export default function RootLayout({

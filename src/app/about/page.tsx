@@ -7,12 +7,12 @@ import Reveal from "../../components/Reveal";
 const AboutPage = () => {
     return (
         <main className="bg-slate-50 text-slate-950 transition-colors duration-300 dark:bg-slate-950 dark:text-white">
-            <section className="container mx-auto px-4 py-28">
+            <section className="container mx-auto px-4 py-32">
                 <div className="grid gap-10 lg:grid-cols-[1.35fr_0.95fr] lg:items-start">
                     <Reveal direction="left" delay={0} className="space-y-8">
                         <div>
-                            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-sky-500 dark:text-sky-400">About Me</p>
-                            <h1 className="mt-6 text-4xl font-semibold sm:text-5xl">Hi, I’m Ziad Abuolila</h1>
+                            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#a8794d]">A little about me</p>
+                            <h1 className="mt-6 text-5xl font-semibold tracking-tight sm:text-6xl">Hi, I’m Ziad Abuolila</h1>
                         </div>
                         <div className="flex justify-center sm:justify-start">
                             <div className="overflow-hidden rounded-[2rem] border border-slate-200 bg-white/90 shadow-2xl shadow-slate-900/5 transition-colors duration-300 dark:border-slate-800 dark:bg-slate-900/90 dark:shadow-slate-950/20">

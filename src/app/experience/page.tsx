@@ -20,11 +20,11 @@ const ExperiencePage = () => {
 
     return (
         <main className="bg-slate-50 text-slate-950 transition-colors duration-300 dark:bg-slate-950 dark:text-white">
-            <section className="container mx-auto px-4 py-28">
+            <section className="container mx-auto px-4 py-32">
                 <div className="mx-auto w-full max-w-4xl space-y-10">
                     <Reveal direction="left" delay={0} className="space-y-6">
-                        <p className="text-sm font-semibold uppercase tracking-[0.35em] text-sky-500 dark:text-sky-400">Experience</p>
-                        <h1 className="mt-6 text-4xl font-semibold sm:text-5xl">What I bring to every project</h1>
+                        <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#a8794d]">Experience & approach</p>
+                        <h1 className="mt-6 text-5xl font-semibold tracking-tight sm:text-6xl">What I bring to every project</h1>
                         <p className="mt-6 text-slate-600 leading-8 dark:text-slate-300">
                             I combine UI design, clean front-end architecture, and strong performance to deliver websites that look great and feel fast.
                         </p>

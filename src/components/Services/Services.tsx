@@ -26,10 +26,10 @@ const services = [
 
 const Services = () => {
     return (
-        <section id="services" className="bg-slate-100 py-24 text-slate-900 transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100">
+        <section id="services" className="bg-[#eee8df] py-28 text-[#211d18] transition-colors duration-300 dark:bg-[#1d1a16] dark:text-slate-100">
             <div className="container mx-auto px-4">
                 <Reveal direction="up" delay={0} className="mx-auto max-w-3xl text-center">
-                    <p className="text-sm font-semibold uppercase tracking-[0.35em] text-sky-500">Services</p>
+                    <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#a8794d]">What I do</p>
                     <h2 className="mt-4 text-4xl font-semibold sm:text-5xl">What I can build for you</h2>
                     <p className="mt-4 text-lg leading-8 text-slate-600 dark:text-slate-300">
                         From elegant landing pages to full business platforms, every project is shaped to feel modern, smooth, and professional.

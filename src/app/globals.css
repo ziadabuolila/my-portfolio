@@ -3,8 +3,10 @@
 
 :root {
   scroll-behavior: smooth;
-  --scroll-thumb: #0ea5e9;
-  --scroll-thumb-hover: #0284c7;
+  --scroll-thumb: #a8794d;
+  --scroll-thumb-hover: #825b38;
+  --paper: #f7f4ef;
+  --ink: #211d18;
 }
 
 html,
@@ -19,8 +21,8 @@ body.no-shell footer {
 }
 
 ::selection {
-  background: #bae6fd;
-  color: #0f172a;
+  background: #dbc5ad;
+  color: #211d18;
 }
 
 .dark ::selection {
@@ -35,8 +37,16 @@ body.no-shell footer {
 }
 
 .dark {
-  --scroll-thumb: #38bdf8;
-  --scroll-thumb-hover: #7dd3fc;
+  --scroll-thumb: #d7b18b;
+  --scroll-thumb-hover: #efd1b0;
+}
+
+body { background: var(--paper); }
+
+:focus-visible { outline: 2px solid #b1845b; outline-offset: 4px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
 
 ::-webkit-scrollbar {

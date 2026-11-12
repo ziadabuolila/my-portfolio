@@ -5,11 +5,11 @@ import Reveal from "../Reveal";
 
 const Contact = () => {
     return (
-        <section id="contact" className="bg-gradient-to-r from-sky-400/20 via-slate-100 to-white py-16 md:py-20 text-slate-950 transition-colors duration-300 dark:from-blue-600/20 dark:via-slate-900 dark:to-slate-950 dark:text-white">
+        <section id="contact" className="bg-gradient-to-r from-[#e9ddcf] via-[#f7f4ef] to-white py-20 text-[#211d18] transition-colors duration-300 dark:from-[#30271e] dark:via-[#1d1a16] dark:to-[#171512] dark:text-white">
             <div className="mx-auto max-w-8xl px-4 sm:px-6 lg:px-8">
                 <div className="mx-auto max-w-3xl text-center">
                     <Reveal direction="up" delay={0} className="text-center">
-                        <p className="text-sm font-semibold uppercase tracking-[0.3em] text-sky-500">Contact Me</p>
+                        <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#a8794d]">Get in touch</p>
                         <h2 className="mt-4 text-4xl font-semibold">Contact Me</h2>
                         <p className="mt-4 mb-4 text-slate-600 dark:text-slate-300">Have a project in mind or just want to say hello? I'd love to hear from you.</p>
                     </Reveal>

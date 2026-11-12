@@ -45,19 +45,19 @@ import Reveal from "../Reveal";
 
 const Projects = () => {
     return (
-        <section id="projects" className="bg-slate-50 py-24 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+        <section id="projects" className="bg-[#f7f4ef] py-28 text-[#211d18] dark:bg-[#171512] dark:text-slate-100">
             <div className="container mx-auto px-4">
                 <div className="mx-auto max-w-3xl text-center">
                     <Reveal direction="up" delay={0} className="text-center">
-                        <p className="text-sm font-semibold uppercase tracking-[0.3em] text-sky-500">Projects</p>
-                        <h2 className="mt-4 text-4xl font-semibold">Projects</h2>
+                        <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#a8794d]">Selected work</p>
+                        <h2 className="mt-4 text-4xl font-semibold tracking-tight sm:text-5xl">A few things I’ve built</h2>
                         <p className="mt-4 text-slate-600 dark:text-slate-300">Crafting modern, responsive, and user-focused web experiences with clean code and thoughtful design.</p>
                     </Reveal>
                 </div>
                 <div className="mt-14 grid gap-6 md:grid-cols-3">
                     {projects.map((project, index) => (
-                        <Reveal key={project.title} direction={index % 2 === 0 ? "left" : "right"} delay={0.1 + index * 0.05} className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-lg shadow-slate-900/5 transition hover:-translate-y-1 hover:shadow-2xl dark:border-slate-800 dark:bg-slate-900 dark:shadow-slate-950/20">
-                            <span className="inline-flex rounded-full bg-sky-100 px-3 py-1 text-xs font-semibold uppercase tracking-[0.3em] text-sky-700 dark:bg-sky-900/20 dark:text-sky-300">Project</span>
+                        <Reveal key={project.title} direction={index % 2 === 0 ? "left" : "right"} delay={0.1 + index * 0.05} className="group rounded-[1.5rem] border border-[#e7ded2] bg-white/80 p-8 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-[#cbb397] hover:shadow-xl dark:border-slate-800 dark:bg-slate-900 dark:shadow-slate-950/20">
+                            <span className="inline-flex rounded-full bg-[#f2e8dc] px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-[#765a3e] dark:bg-slate-800 dark:text-[#dfc3a5]">0{index + 1} / Project</span>
                             <h3 className="mt-6 text-2xl font-semibold text-slate-900 dark:text-white">{project.title}</h3>
                             <p className="mt-4 leading-7 text-slate-600 dark:text-slate-400">{project.description}</p>
                             <div className="mt-6 flex flex-wrap gap-2">

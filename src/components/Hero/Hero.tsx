@@ -8,21 +8,20 @@ const Hero = () => {
     const completedProjects = projects.length;
 
     return (
-        <section className="relative overflow-hidden bg-slate-50 text-slate-950 transition-colors duration-300 min-h-[70vh] sm:min-h-[90vh] dark:bg-slate-950 dark:text-white">
-            <div className="absolute inset-x-0 top-0 h-80 bg-[radial-gradient(circle_at_top_left,_rgba(56,189,248,0.18),_transparent_35%)] opacity-80" />
-            <div className="absolute inset-x-0 bottom-0 h-56 bg-gradient-to-t from-sky-400/20 to-transparent opacity-60" />
+        <section className="relative overflow-hidden bg-[#f7f4ef] text-[#211d18] transition-colors duration-300 min-h-[70vh] sm:min-h-[90vh] dark:bg-[#171512] dark:text-white">
+            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_78%_22%,rgba(183,145,105,.18),transparent_38%),radial-gradient(ellipse_at_10%_85%,rgba(183,145,105,.12),transparent_35%)]" />
             <div className="relative container mx-auto px-4 py-12 sm:py-20 lg:py-3">
                 <div className="grid gap-14 lg:grid-cols-2 lg:items-center">
                     <div className="space-y-8 text-center lg:text-left">
-                        <Reveal direction="left" delay={0} className="inline-flex rounded-full border border-slate-200 bg-white/80 px-5 py-3 text-sm uppercase tracking-[0.35em] text-slate-800 shadow-sm shadow-slate-900/5 transition-colors duration-300 dark:border-white/20 dark:bg-slate-900/80 dark:text-slate-200 dark:shadow-none">
-                            Personal Portfolio
+                        <Reveal direction="left" delay={0} className="inline-flex rounded-full border border-[#cdbba7] bg-white/70 px-5 py-3 text-xs uppercase tracking-[0.3em] text-[#765a3e] shadow-sm dark:border-white/20 dark:bg-slate-900/80 dark:text-[#dfc3a5]">
+                            Independent Front-end Developer
                         </Reveal>
                         <Reveal direction="right" delay={0.1} className="space-y-4">
-                            <h1 className="mx-auto max-w-3xl text-5xl font-semibold tracking-tight text-slate-950 sm:text-6xl lg:text-6xl dark:text-white lg:mx-0">
-                                I design websites, electronic payment systems, and modern e-commerce stores.
+                            <h1 className="mx-auto max-w-3xl text-5xl font-semibold tracking-[-0.055em] text-[#211d18] sm:text-6xl lg:text-7xl dark:text-white lg:mx-0">
+                                Digital experiences, <span className="text-[#a8794d]">made with intention.</span>
                             </h1>
                             <p className="mx-auto max-w-2xl text-lg leading-8 text-slate-600 sm:text-xl dark:text-slate-300 lg:mx-0">
-                                Front-end developer creating polished websites with React, Next.js and Tailwind CSS. Strong UI focus, clean code, and fast performance.
+                                I turn ambitious ideas into polished, fast, and memorable websites—built with care from the first pixel to the final interaction.
                             </p>
                         </Reveal>
                         <Reveal direction="right" delay={0.18} className="rounded-[1.75rem] border border-slate-200 bg-slate-50 p-6 transition-colors duration-300 dark:border-white/10 dark:bg-slate-950/95">
@@ -41,7 +40,7 @@ const Hero = () => {
                             <Reveal direction="left" delay={0.16} className="rounded-[1.75rem] border border-slate-200 bg-slate-50 p-6 transition-colors duration-300 dark:border-white/10 dark:bg-slate-950/95">
                                 <h2 className="text-xl font-semibold text-slate-950 dark:text-white">Skills</h2>
                                 <div className="mt-5 grid gap-3 sm:grid-cols-2">
-                                    {['HTML', 'CSS', 'JavaScript', 'React JS', 'Next JS', 'Tailwind CSS', 'Git', 'GitHub', 'Java', 'Xml'].map((skill) => (
+                                    {['HTML', 'CSS', 'JavaScript', 'React JS', 'Next JS', 'Tailwind CSS', 'Git', 'GitHub', 'XML', 'Java'].map((skill) => (
                                         <span key={skill} className="rounded-2xl bg-slate-100 px-4 py-3 text-sm text-slate-700 dark:bg-slate-900/90 dark:text-slate-200">{skill}</span>
                                     ))}
                                 </div>
