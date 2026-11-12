@@ -46,7 +46,7 @@ const Contact = () => {
                                         className="mt-4 block text-slate-700 transition hover:text-sky-500 dark:text-slate-200"
                                     >
                                         Send a message to this email
-                                        <span className="block font-medium text-slate-900 dark:text-white">z*****a@gmail.com</span>
+                                        <span className="block font-medium text-slate-900 dark:text-white">ziad.abuolila@gmail.com</span>
                                     </a>
                                 </div>
                             </div>

@@ -41,7 +41,7 @@ const Hero = () => {
                             <Reveal direction="left" delay={0.16} className="rounded-[1.75rem] border border-slate-200 bg-slate-50 p-6 transition-colors duration-300 dark:border-white/10 dark:bg-slate-950/95">
                                 <h2 className="text-xl font-semibold text-slate-950 dark:text-white">Skills</h2>
                                 <div className="mt-5 grid gap-3 sm:grid-cols-2">
-                                    {['HTML', 'CSS', 'JavaScript', 'React JS', 'Next JS', 'Tailwind CSS', 'Git', 'GitHub'].map((skill) => (
+                                    {['HTML', 'CSS', 'JavaScript', 'React JS', 'Next JS', 'Tailwind CSS', 'Git', 'GitHub', 'Java', 'Xml'].map((skill) => (
                                         <span key={skill} className="rounded-2xl bg-slate-100 px-4 py-3 text-sm text-slate-700 dark:bg-slate-900/90 dark:text-slate-200">{skill}</span>
                                     ))}
                                 </div>
