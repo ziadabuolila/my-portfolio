@@ -126,7 +126,7 @@ const WelcomeScreen = ({ children }: WelcomeScreenProps) => {
                                     repeat: Infinity,
                                     ease: "easeInOut",
                                 }}
-                                className="absolute -top-40 -left-40 h-96 w-96 rounded-full bg-sky-500/20 blur-3xl"
+                                className="absolute -top-40 -left-40 h-96 w-96 rounded-full bg-[#6366a8]/20 blur-3xl"
                             />
 
                             <motion.div
@@ -170,7 +170,7 @@ const WelcomeScreen = ({ children }: WelcomeScreenProps) => {
                                         duration: 2,
                                         repeat: Infinity,
                                     }}
-                                    className="bg-gradient-to-r from-sky-300 via-white to-sky-400 bg-clip-text text-6xl font-bold text-transparent"
+                                    className="bg-gradient-to-r from-[#a2a4d5] via-white to-[#6366a8] bg-clip-text text-6xl font-bold text-transparent"
                                 >
                                     Z
                                 </motion.span>
@@ -199,7 +199,7 @@ const WelcomeScreen = ({ children }: WelcomeScreenProps) => {
                                         transition={{
                                             duration: 0.35,
                                         }}
-                                        className="bg-gradient-to-r from-sky-400 via-white to-sky-300 bg-clip-text text-center text-4xl font-bold text-transparent sm:text-6xl"
+                                        className="bg-gradient-to-r from-[#6366a8] via-white to-[#a2a4d5] bg-clip-text text-center text-4xl font-bold text-transparent sm:text-6xl"
                                     >
                                         {messages[index]}
                                     </motion.h1>
@@ -215,7 +215,7 @@ const WelcomeScreen = ({ children }: WelcomeScreenProps) => {
                                         duration: loadingDuration / 1000,
                                         ease: "linear",
                                     }}
-                                    className="h-1 rounded-full bg-gradient-to-r from-sky-400 via-blue-500 to-cyan-400"
+                                    className="h-1 rounded-full bg-gradient-to-r from-[#6366a8] via-[#6366a8] to-[#a2a4d5]"
                                 />
                             </div>
 

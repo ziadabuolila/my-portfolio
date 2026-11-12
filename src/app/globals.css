@@ -3,16 +3,20 @@
 
 :root {
   scroll-behavior: smooth;
-  --scroll-thumb: #a8794d;
-  --scroll-thumb-hover: #825b38;
-  --paper: #f7f4ef;
-  --ink: #211d18;
+  --scroll-thumb: #6366a8;
+  --scroll-thumb-hover: #4d508f;
+  --paper: #f6f6f8;
+  --ink: #242431;
+  --accent: #6366a8;
+  --accent-soft: #e8e8f2;
+  --line: #e2e2e9;
 }
 
 html,
 body {
   min-height: 100%;
   overflow-x: hidden;
+  background: #f6f6f8;
 }
 
 body.no-shell header,
@@ -21,12 +25,12 @@ body.no-shell footer {
 }
 
 ::selection {
-  background: #dbc5ad;
-  color: #211d18;
+  background: #dadaee;
+  color: #242431;
 }
 
 .dark ::selection {
-  background: #0369a1;
+  background: #4d508f;
   color: #fff;
 }
 
@@ -37,13 +41,18 @@ body.no-shell footer {
 }
 
 .dark {
-  --scroll-thumb: #d7b18b;
-  --scroll-thumb-hover: #efd1b0;
+  --scroll-thumb: #a2a4d5;
+  --scroll-thumb-hover: #c0c1e5;
+  --paper: oklch(12.9% 0.042 264.695);
+  --ink: #ededf3;
+  --accent: #a2a4d5;
+  --accent-soft: #292936;
+  --line: #343441;
 }
 
-body { background: var(--paper); }
+html, body { background-color: var(--paper); color: var(--ink); }
 
-:focus-visible { outline: 2px solid #b1845b; outline-offset: 4px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }

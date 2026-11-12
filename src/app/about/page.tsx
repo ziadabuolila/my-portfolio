@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Image from "next/image";
 import MyImage from "../../../public/ziad.jpg";
@@ -6,12 +6,12 @@ import Reveal from "../../components/Reveal";
 
 const AboutPage = () => {
     return (
-        <main className="bg-slate-50 text-slate-950 transition-colors duration-300 dark:bg-slate-950 dark:text-white">
+        <main className="bg-slate-50 text-slate-950 transition-colors duration-300 dark:bg-[oklch(12.9%_0.042_264.695)] dark:text-white">
             <section className="container mx-auto px-4 py-32">
                 <div className="grid gap-10 lg:grid-cols-[1.35fr_0.95fr] lg:items-start">
                     <Reveal direction="left" delay={0} className="space-y-8">
                         <div>
-                            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#a8794d]">A little about me</p>
+                            <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#6366a8]">A little about me</p>
                             <h1 className="mt-6 text-5xl font-semibold tracking-tight sm:text-6xl">Hi, I’m Ziad Abuolila</h1>
                         </div>
                         <div className="flex justify-center sm:justify-start">
@@ -37,11 +37,11 @@ const AboutPage = () => {
                         </div>
                         <div className="grid gap-4 sm:grid-cols-2">
                             <div className="rounded-[2rem] border border-slate-200 bg-white/90 p-6 shadow-2xl shadow-slate-900/5 transition-colors duration-300 dark:border-slate-800 dark:bg-slate-900/90 dark:text-white dark:shadow-slate-950/20">
-                                <p className="text-sm font-semibold uppercase tracking-[0.35em] text-sky-500 dark:text-sky-400">Focus Areas</p>
+                                <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#6366a8] dark:text-[#6366a8]">Focus Areas</p>
                                 <p className="mt-4 text-slate-700 dark:text-slate-300 leading-7">Responsive interfaces, component-driven design, and fast-loading user experiences.</p>
                             </div>
                             <div className="rounded-[2rem] border border-slate-200 bg-white/90 p-6 shadow-2xl shadow-slate-900/5 transition-colors duration-300 dark:border-slate-800 dark:bg-slate-900/90 dark:text-white dark:shadow-slate-950/20">
-                                <p className="text-sm font-semibold uppercase tracking-[0.35em] text-sky-500 dark:text-sky-400">What I Value</p>
+                                <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#6366a8] dark:text-[#6366a8]">What I Value</p>
                                 <p className="mt-4 text-slate-700 dark:text-slate-300 leading-7">Clarity, accessibility, and performance-first workflows that keep projects reliable and future-ready.</p>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ const AboutPage = () => {
                                     "Accessibility",
                                     "Clean component design",
                                 ].map((skill) => (
-                                    <div key={skill} className="rounded-3xl bg-slate-50 px-4 py-3 text-sm font-medium text-slate-800 dark:bg-slate-950 dark:text-slate-100">
+                                    <div key={skill} className="rounded-3xl bg-slate-50 px-4 py-3 text-sm font-medium text-slate-800 dark:bg-[oklch(12.9%_0.042_264.695)] dark:text-slate-100">
                                         {skill}
                                     </div>
                                 ))}

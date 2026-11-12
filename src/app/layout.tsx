@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
-      <body className="min-h-screen flex flex-col bg-slate-50 text-slate-950 transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100">
+      <body className="min-h-screen flex flex-col bg-slate-50 text-slate-950 transition-colors duration-300 dark:bg-[oklch(12.9%_0.042_264.695)] dark:text-slate-100">
         <Header />
         <main className="flex-1">
           <WelcomeScreen>

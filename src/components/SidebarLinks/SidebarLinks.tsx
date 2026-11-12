@@ -71,12 +71,12 @@ const SidebarLinks: React.FC = () => {
             href={href}
             aria-label={label}
             onClick={(e) => handleClick(e, href)}
-            className={`group relative flex h-12 w-12 min-w-[3rem] items-center overflow-hidden rounded-full border shadow-lg transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-sky-400 dark:border-white/15 dark:text-white hover:w-44
-              ${isActive ? "w-44 border-sky-300 bg-sky-50 text-sky-700 dark:bg-slate-800" : "border-slate-300 bg-white/90 text-slate-900 dark:bg-slate-950/80"}`}
+            className={`group relative flex h-12 w-12 min-w-[3rem] items-center overflow-hidden rounded-full border shadow-lg transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#a2a4d5] dark:border-white/15 dark:text-white hover:w-44
+              ${isActive ? "w-44 border-[#a2a4d5] bg-[#f2f2f8] text-[#4d508f] dark:bg-slate-800" : "border-slate-300 bg-white/90 text-slate-900 dark:bg-[oklch(12.9%_0.042_264.695)]/80"}`}
           >
             <span className={`flex w-full items-center justify-center px-3 transition-all duration-300 ${isActive ? "gap-2" : "gap-0 group-hover:gap-2"}`}>
               <Icon
-                className={`text-lg transition-transform transition-colors duration-300 ${isActive ? "translate-x-1 text-sky-600" : "group-hover:text-sky-600 dark:group-hover:text-sky-400"}`}
+                className={`text-lg transition-transform transition-colors duration-300 ${isActive ? "translate-x-1 text-[#6366a8]" : "group-hover:text-[#6366a8] dark:group-hover:text-[#6366a8]"}`}
               />
               <span
                 className={`max-w-0 overflow-hidden whitespace-nowrap text-sm font-medium opacity-0 transition-all duration-300 ${isActive ? "max-w-[8rem] opacity-100" : "group-hover:max-w-[8rem] group-hover:opacity-100"} dark:text-white`}

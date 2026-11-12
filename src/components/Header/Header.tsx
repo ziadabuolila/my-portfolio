@@ -43,10 +43,10 @@ const Header = () => {
     };
 
     return (
-        <header className="fixed inset-x-0 top-0 z-50 border-b border-[#ddd2c4]/70 bg-[#f7f4ef]/85 backdrop-blur-xl shadow-sm shadow-slate-900/5 transition-colors duration-300 dark:border-slate-700/40 dark:bg-[#171512]/90">
+        <header className="fixed inset-x-0 top-0 z-50 border-b border-[#e2e2e9]/70 bg-[#f6f6f8]/85 backdrop-blur-xl shadow-sm shadow-slate-900/5 transition-colors duration-300 dark:border-slate-700/40 dark:bg-[oklch(12.9%_0.042_264.695)]/90">
             <div className="container mx-auto flex items-center justify-between gap-4 px-4 py-4 md:gap-6">
                 <Link href="/" className="flex items-center gap-3 font-semibold text-slate-900 transition hover:text-slate-700 dark:text-slate-100 dark:hover:text-white">
-                    <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-[#e8d8c6] text-base font-bold text-[#765a3e] shadow-lg shadow-[#a8794d]/10 dark:bg-[#392d22] dark:text-[#dfc3a5]">
+                    <span className="inline-flex h-10 w-10 items-center justify-center rounded-2xl bg-[#e8e8f2] text-base font-bold text-[#4d508f] shadow-lg shadow-[#6366a8]/10 dark:bg-[#292936] dark:text-[#c0c1e5]">
                         ZA
                     </span>
                     <span className="text-lg">Ziad Abuolila</span>

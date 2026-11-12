@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className="border-t border-slate-200 bg-[#f6f6f8] text-slate-700 transition-colors duration-300 dark:border-white/10 dark:bg-[oklch(12.9%_0.042_264.695)] dark:text-slate-300">
             <div className="container mx-auto max-w-7xl px-4 py-8">
                 <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
                     <div>
@@ -14,19 +14,19 @@ const Footer = () => {
                     </div>
 
                     <div className="flex flex-wrap items-center gap-4 text-sm">
-                        <Link href="/" className="transition hover:text-sky-500">Home</Link>
-                        <Link href="/about" className="transition hover:text-sky-500">About</Link>
-                        <Link href="/experience" className="transition hover:text-sky-500">Experience</Link>
+                        <Link href="/" className="transition hover:text-[#6366a8]">Home</Link>
+                        <Link href="/about" className="transition hover:text-[#6366a8]">About</Link>
+                        <Link href="/experience" className="transition hover:text-[#6366a8]">Experience</Link>
                     </div>
 
                     <div className="flex items-center gap-3">
-                        <a href="https://github.com/ziadabuolila" target="_blank" rel="noreferrer" className="rounded-full border border-slate-300 p-2.5 transition hover:border-sky-400 hover:text-sky-500 dark:border-slate-700 dark:hover:border-sky-400">
+                        <a href="https://github.com/ziadabuolila" target="_blank" rel="noreferrer" className="rounded-full border border-slate-300 p-2.5 transition hover:border-[#a2a4d5] hover:text-[#6366a8] dark:border-slate-700 dark:hover:border-[#a2a4d5]">
                             <FaGithub className="h-4 w-4" />
                         </a>
-                        <a href="https://linkedin.com/in/ziadabuolila" target="_blank" rel="noreferrer" className="rounded-full border border-slate-300 p-2.5 transition hover:border-sky-400 hover:text-sky-500 dark:border-slate-700 dark:hover:border-sky-400">
+                        <a href="https://linkedin.com/in/ziadabuolila" target="_blank" rel="noreferrer" className="rounded-full border border-slate-300 p-2.5 transition hover:border-[#a2a4d5] hover:text-[#6366a8] dark:border-slate-700 dark:hover:border-[#a2a4d5]">
                             <FaLinkedinIn className="h-4 w-4" />
                         </a>
-                        <a href="https://wa.me/201140090860" target="_blank" rel="noreferrer" className="rounded-full border border-slate-300 p-2.5 transition hover:border-sky-400 hover:text-sky-500 dark:border-slate-700 dark:hover:border-sky-400">
+                        <a href="https://wa.me/201140090860" target="_blank" rel="noreferrer" className="rounded-full border border-slate-300 p-2.5 transition hover:border-[#a2a4d5] hover:text-[#6366a8] dark:border-slate-700 dark:hover:border-[#a2a4d5]">
                             <FaWhatsapp className="h-4 w-4" />
                         </a>
                     </div>

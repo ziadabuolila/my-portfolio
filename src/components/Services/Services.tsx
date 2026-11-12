@@ -26,10 +26,10 @@ const services = [
 
 const Services = () => {
     return (
-        <section id="services" className="bg-[#eee8df] py-28 text-[#211d18] transition-colors duration-300 dark:bg-[#1d1a16] dark:text-slate-100">
+        <section id="services" className="bg-[#eeeeF3] py-28 text-[#242431] transition-colors duration-300 dark:bg-[oklch(12.9%_0.042_264.695)] dark:text-slate-100">
             <div className="container mx-auto px-4">
                 <Reveal direction="up" delay={0} className="mx-auto max-w-3xl text-center">
-                    <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#a8794d]">What I do</p>
+                    <p className="text-sm font-semibold uppercase tracking-[0.35em] text-[#6366a8]">What I do</p>
                     <h2 className="mt-4 text-4xl font-semibold sm:text-5xl">What I can build for you</h2>
                     <p className="mt-4 text-lg leading-8 text-slate-600 dark:text-slate-300">
                         From elegant landing pages to full business platforms, every project is shaped to feel modern, smooth, and professional.
@@ -41,7 +41,7 @@ const Services = () => {
                         const Icon = service.icon;
                         return (
                             <Reveal key={service.title} direction={index % 2 === 0 ? "left" : "right"} delay={0.1 + index * 0.08} className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-lg shadow-slate-900/5 transition hover:-translate-y-1 hover:shadow-2xl dark:border-slate-800 dark:bg-slate-900 dark:shadow-slate-950/20">
-                                <div className="inline-flex rounded-2xl bg-sky-100 p-3 text-sky-600 dark:bg-sky-900/30 dark:text-sky-300">
+                                <div className="inline-flex rounded-2xl bg-[#e8e8f2] p-3 text-[#6366a8] dark:bg-[#292936] dark:text-[#a2a4d5]">
                                     <Icon className="h-6 w-6" />
                                 </div>
                                 <h3 className="mt-6 text-2xl font-semibold text-slate-950 dark:text-white">{service.title}</h3>
@@ -49,7 +49,7 @@ const Services = () => {
                                 <ul className="mt-6 space-y-3 text-sm text-slate-700 dark:text-slate-300">
                                     {service.points.map((point) => (
                                         <li key={point} className="flex items-center gap-2">
-                                            <span className="h-2.5 w-2.5 rounded-full bg-sky-500" />
+                                            <span className="h-2.5 w-2.5 rounded-full bg-[#6366a8]" />
                                             {point}
                                         </li>
                                     ))}
